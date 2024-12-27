@@ -30,11 +30,11 @@ namespace API.Controllers
             return user;
         }
 
-        // [HttpPost]
-        // public ActionResult<string> AddUser()
-        // {
-        //     return "Add User";
-        // }
+        [HttpPost]
+        public ActionResult<string> AddUser()
+        {
+            return "Add User";
+        }
 
         // [HttpPut("{id}")]
         // public ActionResult<string> UpdateUser(int id)
